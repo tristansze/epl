@@ -8,7 +8,7 @@ import './index.scss';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = "Welcome to".split("");
-    const jobArray = "Barcleague!".split("");
+    const jobArray = "PremierPlay!".split("");
 
     useEffect(() => {
         const timerId = setTimeout(() => {
